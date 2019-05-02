@@ -10,8 +10,11 @@ func main() {
 	err := PrintDivision(1, 2)
 	if err != nil {
 		panic(err.Error())
-	}
 
+	}	
+	// Call a func
+	PrintDivision(2, 0)
+  
 }
 
 func PrintDivision(a, b int) (error) {
