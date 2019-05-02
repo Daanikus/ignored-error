@@ -12,7 +12,6 @@ func main() {
 		panic(err.Error())
 	}
 
-	PrintDivision(2, 0)
 }
 
 func PrintDivision(a, b int) (error) {
