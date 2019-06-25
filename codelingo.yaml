@@ -14,6 +14,7 @@ funcs:
       return handler
     }
 tenets:
+- import: codelingo/code-review-comments/context-first-arg
 - import: codelingo/kubernetes/jsonapi-kind-compulsory-metadata
 - import: codelingo/kubernetes/flags-have-underscores
 - name: do-not-ignore-errors
