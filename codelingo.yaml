@@ -14,6 +14,10 @@ funcs:
       return handler
     }
 tenets:
+- import: codelingo/effective-go/defer-close-file
+- import: codelingo/code-review-comments/declare-empty-slice
+- import: codelingo/code-review-comments/do-not-discard-errors
+- import: codelingo/cacophony/defer-in-loop
 - import: codelingo/cockroachdb/fmt-verbs
 - import: codelingo/code-review-comments/context-first-arg
 - import: codelingo/kubernetes/jsonapi-kind-compulsory-metadata
