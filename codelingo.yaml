@@ -14,17 +14,9 @@ funcs:
       return handler
     }
 tenets:
-- import: codelingo/cacophony/redundant-defer-wraps
-- import: codelingo/php/offsite-redirection
-- import: codelingo/go/global-var
-- import: codelingo/effective-go/defer-close-file
-- import: codelingo/code-review-comments/declare-empty-slice
-- import: codelingo/code-review-comments/do-not-discard-errors
-- import: codelingo/cacophony/defer-in-loop
-- import: codelingo/cockroachdb/fmt-verbs
-- import: codelingo/code-review-comments/context-first-arg
-- import: codelingo/kubernetes/jsonapi-kind-compulsory-metadata
+- import: codelingo/php/if-assignment
 - import: codelingo/kubernetes/flags-have-underscores
+- import: codelingo/cockroachdb/func-args-inline-comments
 - name: do-not-ignore-errors
   query: |
     import codelingo/ast/go
