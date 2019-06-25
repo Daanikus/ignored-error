@@ -14,6 +14,7 @@ funcs:
       return handler
     }
 tenets:
+- import: codelingo/cacophony/redundant-defer-wraps
 - import: codelingo/php/offsite-redirection
 - import: codelingo/go/global-var
 - import: codelingo/effective-go/defer-close-file
