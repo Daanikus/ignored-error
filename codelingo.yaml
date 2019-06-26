@@ -15,68 +15,61 @@ funcs:
     }
 tenets:
 - import: codelingo/effective-go/comment-first-word-as-subject
-  inline:
-    codelingo/docs:
-      title: ""
-      body: ""
-    codelingo/review:
-      comment: ""
-    codelingo/rewrite:
-      place: ""
+  codelingo/docs:
+    title: ""
+    body: ""
+  codelingo/review:
+    comment: ""
+  codelingo/rewrite:
+    place: ""
 - import: codelingo/go/ticker-in-for-switch
-  inline:
-    codelingo/docs:
-      title: ""
-      body: ""
-    codelingo/review:
-      comment: ""
-    codelingo/rewrite:
-      place: ""
+  codelingo/docs:
+    title: ""
+    body: ""
+  codelingo/review:
+    comment: ""
+  codelingo/rewrite:
+    place: ""
 - import: codelingo/kubernetes/well-formed-lists
-  inline:
-    codelingo/docs:
-      title: ""
-      body: ""
-    codelingo/review:
-      comment: ""
-    codelingo/rewrite:
-      place: ""
+  codelingo/docs:
+    title: ""
+    body: ""
+  codelingo/review:
+    comment: ""
+  codelingo/rewrite:
+    place: ""
 - import: codelingo/php/if-assignment
-  inline:
-    codelingo/docs:
-      title: ""
-      body: ""
-    codelingo/review:
-      comment: ""
-    codelingo/rewrite:
-      place: ""
+  codelingo/docs:
+    title: ""
+    body: ""
+  codelingo/review:
+    comment: ""
+  codelingo/rewrite:
+    place: ""
 - import: codelingo/kubernetes/flags-have-underscores
-  inline:
-    codelingo/docs:
-      title: ""
-      body: ""
-    codelingo/review:
-      comment: ""
-    codelingo/rewrite:
-      place: ""
+  codelingo/docs:
+    title: ""
+    body: ""
+  codelingo/review:
+    comment: ""
+  codelingo/rewrite:
+    place: ""
 - import: codelingo/cockroachdb/func-args-inline-comments
-  inline:
-    codelingo/docs:
-      title: ""
-      body: ""
-    codelingo/review:
-      comment: ""
-    codelingo/rewrite:
-      place: ""
+  codelingo/docs:
+    title: ""
+    body: ""
+  codelingo/review:
+    comment: ""
+  codelingo/rewrite:
+    place: ""
 - name: do-not-ignore-errors
-  inline:
-    codelingo/docs:
-      title: ""
-      body: ""
-    codelingo/review:
-      comment: ""
-    codelingo/rewrite:
-      place: ""
+  codelingo/docs:
+    title: ""
+    body: ""
+  codelingo/review:
+    comment: ""
+  codelingo/rewrite:
+    place: ""
   query: |
     import codelingo/ast/go
 
