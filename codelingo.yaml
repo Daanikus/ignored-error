@@ -14,12 +14,69 @@ funcs:
       return handler
     }
 tenets:
+- import: codelingo/effective-go/good-package-name
+  flows:
+    codelingo/docs:
+      title: ""
+      body: ""
+    codelingo/review:
+      comment: ""
+    codelingo/rewrite:
+      place: ""
 - import: codelingo/go/ticker-in-for-switch
+  flows:
+    codelingo/docs:
+      title: ""
+      body: ""
+    codelingo/review:
+      comment: ""
+    codelingo/rewrite:
+      place: ""
 - import: codelingo/kubernetes/well-formed-lists
+  flows:
+    codelingo/docs:
+      title: ""
+      body: ""
+    codelingo/review:
+      comment: ""
+    codelingo/rewrite:
+      place: ""
 - import: codelingo/php/if-assignment
+  flows:
+    codelingo/docs:
+      title: ""
+      body: ""
+    codelingo/review:
+      comment: ""
+    codelingo/rewrite:
+      place: ""
 - import: codelingo/kubernetes/flags-have-underscores
+  flows:
+    codelingo/docs:
+      title: ""
+      body: ""
+    codelingo/review:
+      comment: ""
+    codelingo/rewrite:
+      place: ""
 - import: codelingo/cockroachdb/func-args-inline-comments
+  flows:
+    codelingo/docs:
+      title: ""
+      body: ""
+    codelingo/review:
+      comment: ""
+    codelingo/rewrite:
+      place: ""
 - name: do-not-ignore-errors
+  flows:
+    codelingo/docs:
+      title: ""
+      body: ""
+    codelingo/review:
+      comment: ""
+    codelingo/rewrite:
+      place: ""
   query: |
     import codelingo/ast/go
 
