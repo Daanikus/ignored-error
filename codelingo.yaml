@@ -15,7 +15,7 @@ funcs:
     }
 tenets:
 - import: codelingo/effective-go/good-package-name
-  flows:
+  inline:
     codelingo/docs:
       title: ""
       body: ""
@@ -24,7 +24,7 @@ tenets:
     codelingo/rewrite:
       place: ""
 - import: codelingo/go/ticker-in-for-switch
-  flows:
+  inline:
     codelingo/docs:
       title: ""
       body: ""
@@ -33,7 +33,7 @@ tenets:
     codelingo/rewrite:
       place: ""
 - import: codelingo/kubernetes/well-formed-lists
-  flows:
+  inline:
     codelingo/docs:
       title: ""
       body: ""
@@ -42,7 +42,7 @@ tenets:
     codelingo/rewrite:
       place: ""
 - import: codelingo/php/if-assignment
-  flows:
+  inline:
     codelingo/docs:
       title: ""
       body: ""
@@ -51,7 +51,7 @@ tenets:
     codelingo/rewrite:
       place: ""
 - import: codelingo/kubernetes/flags-have-underscores
-  flows:
+  inline:
     codelingo/docs:
       title: ""
       body: ""
@@ -60,7 +60,7 @@ tenets:
     codelingo/rewrite:
       place: ""
 - import: codelingo/cockroachdb/func-args-inline-comments
-  flows:
+  inline:
     codelingo/docs:
       title: ""
       body: ""
@@ -69,7 +69,7 @@ tenets:
     codelingo/rewrite:
       place: ""
 - name: do-not-ignore-errors
-  flows:
+  inline:
     codelingo/docs:
       title: ""
       body: ""
