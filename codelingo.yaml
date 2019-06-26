@@ -14,7 +14,7 @@ funcs:
       return handler
     }
 tenets:
-- import: codelingo/effective-go/good-package-name
+- import: codelingo/effective-go/comment-first-word-as-subject
   inline:
     codelingo/docs:
       title: ""
